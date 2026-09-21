@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # pkgs/nixpush.nix
 #
 # The nixpush core CLI: `send` / `channels` / `doctor` / `flush`. No daemon, no persistent

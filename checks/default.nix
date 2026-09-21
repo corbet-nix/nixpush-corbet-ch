@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/default.nix
 #
 # Two kinds of test, plus a composed-host smoke check, combined into the flake outputs

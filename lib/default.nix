@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lib/default.nix
 #
 # Nix-level helper surface for wiring nixpush sends into OTHER modules'

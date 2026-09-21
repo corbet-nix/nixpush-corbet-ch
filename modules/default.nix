@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/default.nix
 #
 # nixpush core: the `channels`/`providers` option schema, and the

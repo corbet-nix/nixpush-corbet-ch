@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # examples/host/configuration.nix
 #
 # A minimal composed system exercising every real, implemented nixpush option, including the

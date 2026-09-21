@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # pkgs/nixpush-provider-ntfy.nix
 #
 # The first-party ntfy provider: a real curl wrapper against ntfy's

@@ -352,7 +352,7 @@ for why three classes.
 | `experiments/` | Throwaway trials, dated Question/Hypothesis/Method/Result/Status entries |
 | `studies/` | Write-ups that changed a decision |
 | `CONTRIBUTING.md` | The provider contract, concretely |
-| `LICENSE` | MIT |
+| `LICENSE-MIT` + `LICENSE-APACHE` | MIT OR Apache-2.0 |
 
 ## Non-goals & future direction
 
@@ -376,6 +376,6 @@ design system: **nixram** (memory-pressure tuning), **nixarch** (declarative Arc
 workstations), and **nixnet** (declarative multi-uplink networking), among others. nixpush's
 own niche is purely notification dispatch — usable alongside any of them, or standalone.
 
-## License
+## Licence
 
-MIT.
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

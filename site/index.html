@@ -25,8 +25,8 @@
   <nav>
     <a href="/" class="nav-brand">nixpush</a>
     <div class="nav-links">
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/blob/main/docs/index.md">Docs</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch">GitHub</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/docs/index.md">Docs</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch">GitHub</a>
       <a href="#install">Install</a>
       <details class="nav-family">
         <summary>nix* family</summary>
@@ -56,7 +56,7 @@
     <p class="subtitle">A stateless NixOS module and CLI that binds named <code>channels</code> to pluggable <code>providers</code>. Every script, systemd unit, and module that wants to alert someone calls <code>nixpush send --channel alerts "..."</code> and never knows or cares what actually receives it. No daemon, no queue &mdash; one delivery attempt, reported through a 3-class exit code.</p>
     <div class="cta">
       <a href="#install" class="btn btn-primary">Get started</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch" class="btn btn-secondary">View on GitHub</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch" class="btn btn-secondary">View on GitHub</a>
     </div>
   </div>
 
@@ -140,7 +140,7 @@ paging:  ok</span>
       </div>
       <div class="feature">
         <h3>A provider is one contract, any language</h3>
-        <p>stdin JSON envelope in, an exit code out. A community provider for Gotify, Pushover, or Matrix needs zero dependency on nixpush internals &mdash; see <a href="https://github.com/julian-corbet/nixpush-corbet-ch/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+        <p>stdin JSON envelope in, an exit code out. A community provider for Gotify, Pushover, or Matrix needs zero dependency on nixpush internals &mdash; see <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
       </div>
       <div class="feature">
         <h3>Honest about v1's scope</h3>
@@ -188,7 +188,7 @@ paging:  ok</span>
     <div class="install-grid">
       <div class="install-method">
         <h3>1. Add the flake input</h3>
-        <pre><code>inputs.nixpush.url = "github:julian-corbet/nixpush-corbet-ch";</code></pre>
+        <pre><code>inputs.nixpush.url = "github:corbet-nix/nixpush-corbet-ch";</code></pre>
       </div>
       <div class="install-method">
         <h3>2. Import and declare a channel</h3>
@@ -204,7 +204,7 @@ nixpush = {
       </div>
       <div class="install-method">
         <h3>Build from source</h3>
-        <pre><code>git clone https://github.com/julian-corbet/nixpush-corbet-ch
+        <pre><code>git clone https://github.com/corbet-nix/nixpush-corbet-ch
 cd nixpush-corbet-ch
 nix build .#nixpush .#nixpush-provider-ntfy</code></pre>
         <p>Needs only Nix with flakes enabled. <code>nix flake check</code> runs the same build + shellcheck CI does.</p>
@@ -233,15 +233,15 @@ nix build .#nixpush .#nixpush-provider-ntfy</code></pre>
 <footer>
   <div class="container">
     <div class="footer-links">
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/blob/main/docs/index.md">Docs</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch">Source</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/blob/main/CONTRIBUTING.md">Provider contract</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/tree/main/experiments">Experiments</a>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/docs/index.md">Docs</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch">Source</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/CONTRIBUTING.md">Provider contract</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/tree/main/experiments">Experiments</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixpush-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
-      <a href="https://github.com/julian-corbet">Julian Corbet</a>
+      <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/LICENSE-MIT">MIT</a> &middot; <a href="https://github.com/corbet-nix/nixpush-corbet-ch/blob/main/LICENSE-APACHE">Apache-2.0</a> &middot;
+      <a href="https://github.com/corbet-nix">Julian Corbet</a>
     </p>
   </div>
 </footer>

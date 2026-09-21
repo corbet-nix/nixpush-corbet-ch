@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lib/nixpush.sh
 #
 # POSIX-sh helper for scripts that want a one-line function call instead

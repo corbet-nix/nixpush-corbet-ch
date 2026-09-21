@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "A stateless, provider-agnostic notification-dispatch mechanism for NixOS: named channels bound to pluggable providers, plus a synchronous `nixpush send` CLI with a 3-class exit code. No daemon, no queue in core -- see README.md.";
 

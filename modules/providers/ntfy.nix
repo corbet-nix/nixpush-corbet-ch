@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/providers/ntfy.nix
 #
 # First-party ntfy provider: registers itself into

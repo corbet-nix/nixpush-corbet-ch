@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/behavior.nix
 #
 # BUILD-LEVEL proof, entirely inside the Nix build sandbox: the real `nixpush` CLI (built

@@ -2,7 +2,7 @@
 
 nixpush is built to grow a provider ecosystem it doesn't have to maintain itself.
 Contributions — first-party fixes, and especially community providers — are welcome under
-the project's [MIT](LICENSE) license.
+the project's outbound `MIT OR Apache-2.0` licence (see `LICENSE-MIT` and `LICENSE-APACHE`).
 
 ## Ground rules
 
@@ -140,13 +140,13 @@ that's just what the first-party provider happens to use.
 ## Contributor agreement
 
 By submitting a contribution, you agree to the
-[Individual Contributor License Agreement](https://github.com/corbet-labs/.github/blob/cla-v1.0/CLA.md).
+[Individual Contributor License Agreement](https://github.com/corbet-nix/.github/blob/cla-v1.0/CLA.md).
 Include this exact affirmation in your pull request description:
 
 <!-- markdownlint-disable MD034 -->
 
 <!-- prettier-ignore -->
-> I have read and agree to version 1.0 of the Individual Contributor License Agreement at https://github.com/corbet-labs/.github/blob/cla-v1.0/CLA.md.
+> I have read and agree to version 1.0 of the Individual Contributor License Agreement at https://github.com/corbet-nix/.github/blob/cla-v1.0/CLA.md.
 
 <!-- markdownlint-enable MD034 -->
 
